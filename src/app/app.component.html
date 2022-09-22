@@ -1,4 +1,4 @@
-<h1 class="color">{{title}}</h1>
+<!-- <h1 class="color">{{title}}</h1>
 <h1>{{count}}</h1>
 <h1 *ngIf="count > 0">I am visible if I am greater than 0</h1>
 <button (click)="decreaseCount()">Decrement</button>
@@ -12,7 +12,7 @@
     <h2>INPUTS</h2>
     <input type="number" [(ngModel)]="A">
     <input type="number" [(ngModel)]="B">
-    <!-- <input type="number" [(ngModel)]="arr[1]">
+    <input type="number" [(ngModel)]="arr[1]">
     <input type="number" [(ngModel)]="arr[2]">
     <input type="number" [(ngModel)]="arr[3]">
     <input type="number" [(ngModel)]="arr[4]">
@@ -20,7 +20,7 @@
     <input type="number" [(ngModel)]="arr[6]">
     <input type="number" [(ngModel)]="arr[7]">
     <input type="number" [(ngModel)]="arr[8]">
-    <input type="number" [(ngModel)]="arr[9]"> -->
+    <input type="number" [(ngModel)]="arr[9]">
     
     <br><br>
     <button (click)="add()">+</button>
@@ -29,4 +29,17 @@
     <button (click)="divi()">/</button>
     <h2>RESULT</h2>
     <span>{{C}}</span>
-</div>
+</div> -->
+
+<!-- <h1>Todo List App</h1>
+
+<input type="text" [(ngModel)]="todoItem">
+<h3>{{todoItem}}</h3>
+<button (click)=  "addToTodoList()">Add To Todo List</button>
+
+<li 
+    *ngFor="let myTodoItem of todoList">
+    {{myTodoItem}}
+</li> -->
+<app-todo></app-todo>
+<app-joke></app-joke>
